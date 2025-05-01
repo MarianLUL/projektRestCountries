@@ -47,7 +47,7 @@ function loadCountries(region) {
                             `;
 
                             modalBody.innerHTML = `
-                                <img class="card-img-top border border-dark" src="${country.flags.png}" alt="Vlajka ${country.name.common}" style="width: 100%; height: 250px;" />
+                                <img class="card-img-top border border-dark" src="${country.flags.png}" alt="Vlajka ${country.name.common}" style="width: 100%;" />
                                 <p></p>
                                 <p style="word-wrap: break-word;">Populace: ${country.population}</p>
                                 <p style="word-wrap: break-word;">Zkratka: <b>${country.cca3}</b></p>
